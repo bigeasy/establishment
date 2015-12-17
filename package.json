@@ -1,0 +1,33 @@
+{
+    "name":         "establishment",
+    "version":      "9.9.9",
+    "description":  "Establish a socket on an arbitrary port.",
+    "author":       "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage":     "https://github.com/bigeasy/establishment",
+    "bugs":         "https://github.com/bigeasy/establishment/issues",
+    "keywords":
+    [
+                    "port", "server", "net", "http", "listen", "bind"
+    ],
+    "contributors":
+    [
+    ],
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                    "proof": "0.0.57"
+    },
+    "main":         "establishment.js",
+    "scripts":
+    {
+                    "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    },
+    "license":      "MIT",
+    "repository":
+    {
+                    "type": "git",
+                    "url": "http://github.com/bigeasy/establishment.git"
+    }
+}
