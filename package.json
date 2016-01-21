@@ -1,6 +1,6 @@
 {
     "name":         "establishment",
-    "version":      "0.0.1",
+    "version":      "1.0.0",
     "description":  "Establish a socket on an arbitrary port.",
     "author":       "Alan Gutierrez <alan@prettyrobots.com>",
     "homepage":     "https://github.com/bigeasy/establishment",
